@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #FFE97D;
+
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+    -moz-box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+    box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+}
+
+.container {
+    display: flex;
+    max-width: 1220px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: #221E22;
+    -moz-user-select: none;
+    user-select: none;
+}

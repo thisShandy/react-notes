@@ -1,0 +1,17 @@
+.item {
+    padding: 5px 10px;
+    margin: 10px 10px 0 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    text-transform: uppercase;
+    color: #221E22;
+    border-radius: 5px;
+    background-color: #FFE97D;
+
+    outline: none;
+    border: none;
+}
+
+.item:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    max-width: 1220px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 20px auto;
+}
+
+.textarea {
+    width: 100%;
+    height: 31px;
+    border-radius: 10px;
+    background-color: #FDFDFF;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    color: #221E22;
+
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+    -moz-box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+    box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+
+    margin: 0;
+    padding: 17px;
+    outline: none;
+    border: none;
+    resize: none;
+
+    transition: height 0.25s;
+}
+
+.textarea::-webkit-scrollbar {
+    width: 5pt;
+}
+
+.textarea::-webkit-scrollbar-track {
+    background-color: #DBDAEA;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: #FFE97D;
+    border-radius: 5px;
+}
+
+.textarea:focus {
+    height: 160px;
+}
+
+.button {
+    width: 100px;
+    height: 65px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #221E22;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+    text-transform: uppercase;
+    color: #FFE97D;
+
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+    -moz-box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+    box-shadow: 5px 5px 10px -5px rgba(34, 30, 34, 0.1);
+
+    outline: none;
+    border: none;
+
+    transition: background-color 0.1s;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #221E22;
+    background-color: #ffed9c;
+}
+
+@media screen and (max-width: 424px) {
+    .button {
+        width: 80px;
+        height: 55px;
+    }
+    .textarea {
+        height: 21px;
+        font-size: 13pt;
+    }
+}
