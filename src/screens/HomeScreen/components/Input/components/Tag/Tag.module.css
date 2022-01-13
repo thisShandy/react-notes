@@ -1,0 +1,14 @@
+.head {
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    background-color: #F45B69;
+    color: #FDFDFF;
+    border-radius: 10px;
+}
